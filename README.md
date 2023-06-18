@@ -19,6 +19,8 @@ You can install these dependencies using pip:
 
 pip3 install smtplib requests xlsxwriter
 
+
+# Note : Make sure to replace the 'fromaddr' and 'toaddr' variables with your email addresses and 'msecret' with your email password.
 # Usage
 
     Clone the repository:
@@ -53,4 +55,4 @@ The script performs the following tasks:
     Populates the sheets with the pull request details, including the pull request number, username, PR summary, and timestamp.
     Sends an email with the Excel file attached to the specified recipient.
 
-# Note : Make sure to replace the 'fromaddr' and 'toaddr' variables with your email addresses and 'msecret' with your email password.
+

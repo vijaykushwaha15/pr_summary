@@ -108,10 +108,10 @@ def pull_requests():
 
 def send_email():
     try:
-        fromaddr = '15.vijaykushwaha@gmail.com'
-        toaddr = 'vijaykushvknk@gmail.com'
-        msecret='mmiudzznpkkpxgso'
-        message="Please find the attached excel file"
+        fromaddr = ''
+        toaddr = ''
+        msecret=''
+        message=f"Hi {toaddr}, \nPlease find the attached excel file for the PR summary of open, closed, and draft PRs for github repository https://github.com/{repository}.git"
         msg = MIMEMultipart()
         msg['From'] = fromaddr
         msg['To'] = toaddr
